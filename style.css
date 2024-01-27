@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(0, 0, 0);
+    color: #FF0000;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    padding: 10px 10px;
+}
+
+header div{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(255, 255, 0);
+}
+
+header div span{
+    color: #FF0000;
+}
+
+header button{
+    background-color:rgb(255, 255, 0);
+    color: rgb(1, 1, 28);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius:30px;
+    border: 3px solid #FF0000;
+    box-shadow: 2px 2px #FF0000;
+}
+
+header button:hover{
+    color: rgb(255, 255, 0);
+    background-color:rgb(1, 1, 28);
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #main {
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+  }
+
+#main-2{
+    text-align: center;
+    padding: 20px 0px;
+}
+#main-2 div{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 0);
+}
+#main-2 p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: whitesmoke;
+}
+#main-2 div span{
+
+}
+
+#main-3{
+    background-color: rgb(6, 143, 255);
+    color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100%;
+}
+
+#main-3 p{
+    font-size: 20px;
+    padding: 0px 5px;
+    color:rgb(0, 0, 0);
+    font-weight: 500;
+    font-family: cursive;
+}
+#main-4 {
+    margin: 0px 5px;
+}
+#main-4 div{
+    margin-top: 5px;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0px;
+     color: rgb(255, 255, 0);;
+}
+#main-4 .grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    padding: 5px 5px;
+}
+
+#main-4 .grid img{
+    width: 200px;
+    height: 100px;
+    margin: 3px 3px;
+}
+
+#main-5{
+    background-color:rgb(1, 1, 28);
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px;
+    padding: 5px 0px;
+}
+#main-5 .grid-5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+#main-5 h1{
+    text-align: center;
+    font-size:30px;
+    color: rgb(255, 255, 0);
+}
+
+#main-5 .grid-5 div{
+    width: 300px;
+    height: auto;
+    background-color:'';
+    box-shadow: 1px 1px 1px 1px gainsboro;
+    padding: 10px 10px;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+#main-5 .grid-5 div h2{
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+#main-6{
+    background-color: rgb(0, 0, 2);
+}
+
+#main-6 h1{
+    text-align: center;
+    color: rgb(255, 255, 0);
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#main-6 #main-container{
+    display: flex;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px;
+    margin-top: 10px;
+}
+#main-6 #main-container div{
+    color: whitesmoke;
+}
+
+#main-6 #main-container .border{
+    width: 2px;
+    border: 2px solid rgb(255, 255, 0);
+    font-size: 5px;
+}
+
+#main-7 #direction{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    padding: 0px 5px;
+}
+
+#main-7 #direction p{
+    color: #FF0000;
+    font-size: 20px;
+}
+
+#main-7 #direction img{
+        width: 150px;
+}
+#main-8 h1{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 255, 0);
+    margin: 10px 0px;
+}
+
+#main-8 #people{
+    width: 200px;
+    height: auto;
+    margin: 20px 0px;
+}
+
+#main-8 #color{
+    background-color:rgb(1, 1, 28);
+    color: whitesmoke;
+}
+
+#main-8 #people img{
+    width: 200px ;
+    height: 200px;
+    border-radius: 100%;
+}
+
+footer{
+    text-align: center;
+    font-size: 25px;
+    background: rgb(1, 1, 28);
+    color: #FF0000;
+    font-weight: 700;
+    padding: 8px 2px;
+}
+
+#sticky-menu{
+    position: fixed;
+    bottom: 50px;
+    z-index: 1000;
+    left: 0;
+    width: 100%;
+    margin: 0px 5px;
+    margin-bottom: 5px;
+    padding:0px 10px;
+
+}
+#sticky-menu h1{
+    font-size: 20px;
+}
+
+#sticky-menu div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color:rgb(1, 1, 28);
+    border-radius: 20px;
+    padding:5px ;
+    border: 3px solid rgb(255, 255, 0);
+    box-shadow: 2px 2px rgb(255, 255, 0);
+}
+
+#sticky-menu div img{
+    width: 50px;
+}
+
+
+#preloader{
+    background: #000 url(./assets/circle-loader\ \(1\).gif) no-repeat center center;
+    background-size: 30%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 2000;
+}
